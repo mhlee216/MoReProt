@@ -27,5 +27,6 @@ def make_fp(inputs):
 
 df = pd.read_csv('prot.csv')
 mrp = MoReProt.Fingerprint(maccs=True, ecfp4=True, ecfp6=True, rdkit=True)
-fps_list = parmap.map(make_fp, [[mrp, seq] for seq in df['sequence'].tolist()], pm_pbar=True, pm_processes=20)
+fps_list = parmap.map(make_fp, [[mrp, seq] for seq in df['sequence'].tolist()], 
+                      pm_pbar=True, pm_processes=20)
 ```
