@@ -10,7 +10,7 @@ $ pip install moreprot
 ```python
 from moreprot import MoReProt
 
-mrp = MoReProt.Fingerprint(maccs=True, ecfp4=True, ecfp6=True, rdkit=True)
+mrp = MoReProt.Fingerprint(maccs=True, ecfp4=True, ecfp6=True, rdkit=False)
 fp = mrp.proteinfp('MATGGRRGAAAAPLLVAVAALLLGAAGHLYPGEVCPGMDIRNNLTRLHELENCSVIEGHL')
 ```
 
