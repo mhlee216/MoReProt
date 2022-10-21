@@ -6,6 +6,7 @@
 $ pip install moreprot
 ```
 
+* Example (python):
 
 ```python
 from moreprot import MoReProt
