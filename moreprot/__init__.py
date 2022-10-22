@@ -1,3 +1,3 @@
-import MoReProt
+from .MoReProt import Fingerprint
 
-__all__ = ("MoReProt")
+__all__ = ("Fingerprint")
