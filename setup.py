@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(name='moreprot',
-      version="1.0.1",
+      version="1.0.2",
       url='https://github.com/mhlee216/MoReProt',
       packages=find_packages(),
       author='Myeonghun Lee',
