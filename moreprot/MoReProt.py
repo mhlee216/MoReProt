@@ -4,7 +4,7 @@ from rdkit.Chem import AllChem
 from rdkit.Chem import MACCSkeys
 
 
-class Fingerprint:
+class MoReProt:
     
     def __init__(self, maccs=True, ecfp4=True, ecfp6=True, rdkit=True):
         
@@ -58,7 +58,7 @@ class Fingerprint:
                 mol = Chem.MolFromSmiles(self.AA_dict[aa])
                 self.rdkit_dict[aa] = np.array(AllChem.RDKFingerprint(mol)).tolist()
     
-    def getfp(self, seq):
+    def fingerprint(self, seq):
         pos = np.arange(1, len(seq)+1)/(len(seq))
         
         arrays = []
