@@ -12,4 +12,4 @@ setup(name='moreprot',
       description='Molecular Fingerprint Recombination-based Protein Fingerprint', 
       long_description=long_description, 
       install_requires=["numpy >= 1.19.0", "rdkit >= 2021.09.2"],
-      classifiers=['Programming Language :: Python :: 3', 'License :: OSI Approved :: MIT License'])
+      classifiers=['License :: OSI Approved :: MIT License'])
