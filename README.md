@@ -1,4 +1,4 @@
-# MoReProt: Molecular Fingerprint Recombination-based Protein Fingerprint.
+## MoReProt: Molecular Fingerprint Recombination-based Protein Fingerprint.
 
 * PyPI (pip):
 
